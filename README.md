@@ -4,4 +4,4 @@ I am hoping to utilise all the stuff learnt so far and build on them as time goe
 - creating index files for webpages using htlm
 - creating links to other resources
 - adding italics and bold letters
--  
+- creating project folders with appropriate links from pages 
