@@ -12,9 +12,9 @@ h1 {
   text-align: center;
   font-family: Arial, 'Courier New', Helvetica, sans-serif;
 }
- div {
-  color: white;
+ div .subsection {
   align-items: center;
+  color: blue;
 }
 
 p {
