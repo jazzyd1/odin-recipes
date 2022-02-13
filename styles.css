@@ -5,34 +5,67 @@ body {
   margin-right: 200px;
   margin-top: 30px;
 }
+
 h1 {
   color: rgb(22, 27, 99);
-  background-color: rgb(136, 243, 189);
+  background-color: rgb(136, 243, 189, 0.6);
   font-size: 48px;
   text-align: center;
   font-family: Arial, 'Courier New', Helvetica, sans-serif;
-}
- div .subsection {
+  display: inline-flex;
+  }
+
+  div .subsection {
   align-items: center;
   color: blue;
+  margin-left: 3em;
 }
- .actual {
+
+h3{
+  display: inline-flex;
+  color: green;
+  background-color: inherit;
+
+}
+
+img.actual {
   height: auto;
   width: 600px;
-  align-self: center;
+  display: flex;
+  border: 2px rgb(127, 255, 212, 0.3);  
 }
+
 p {
   text-justify: auto;
   text-align: left;
+  margin-left: 2em;
+  margin-right: auto;
 }
 
 .foot {
-  height: 120px;
-  width: 240px;
-  }
-
+  max-height: 100px;
+  max-width: auto;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+  
 .teasers {
   align-items: center;
   font-size: 18px;
   font-weight: 500;
   }
+  
+divelement {
+    display: inline-flex;
+}
+/*
+img.actual{
+display: inline-flex;
+}
+
+head,
+img{
+display: inline-flex;
+}
+*/
+
