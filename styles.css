@@ -15,10 +15,16 @@ h1 {
   display: inline-flex;
   }
 
-  div .subsection {
+div .subsection {
   align-items: center;
   color: blue;
   margin-left: 3em;
+  display: inline-flex;
+}
+
+#scroller {
+  display: inline-flex;
+  object-fit: contain;
 }
 
 h3{
@@ -38,13 +44,15 @@ p {
   text-justify: auto;
   text-align: left;
   margin-left: 2em;
-  margin-right: auto;
+  margin-right: 2em;
 }
 
 .foot {
-  max-height: 100px;
+  max-height: 75px;
   max-width: auto;
   margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   margin-right: 2px;
 }
   
@@ -52,9 +60,17 @@ p {
   align-items: center;
   font-size: 18px;
   font-weight: 500;
+  margin: 2em;
   }
-  
-divelement {
-    display: inline-flex;
+
+span {
+  border: 1px solid blue;
+  display: inline-flex;
 }
 
+.promo {
+  color: rgb(54, 35, 6);
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 2em;
+}
