@@ -21,12 +21,12 @@ div .subsection {
   margin-left: 3em;
   display: inline-flex;
 }
-
+/*
 #scroller {
   display: inline-flex;
   object-fit: contain;
 }
-
+*/
 h3{
   display: inline-flex;
   color: green;
@@ -48,8 +48,8 @@ p {
 }
 
 .foot {
-  max-height: 75px;
-  max-width: auto;
+  height: 75px;
+  width: auto;
   margin-left: 2px;
   margin-top: 2px;
   margin-bottom: 2px;
@@ -73,4 +73,14 @@ span {
   font-weight: 500;
   font-style: italic;
   margin-top: 2em;
+}
+
+#return {
+  display: flex;
+  color: blue;
+  background-color: inherit;
+  font-size: medium;
+  font-style: italic;
+  height: auto;
+  width: auto;
 }
