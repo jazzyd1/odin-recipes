@@ -4,6 +4,7 @@ body {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 30px;
+  font-family: Arial, 'Courier New', Helvetica, sans-serif;
 }
 
 h1 {
@@ -11,22 +12,20 @@ h1 {
   background-color: rgb(136, 243, 189, 0.6);
   font-size: 48px;
   text-align: center;
-  font-family: Arial, 'Courier New', Helvetica, sans-serif;
-  display: inline-flex;
-  }
+}
 
 div .subsection {
   align-items: center;
   color: blue;
   margin-left: 3em;
-  display: inline-flex;
+  display: inline-block;
 }
-/*
+
 #scroller {
-  display: inline-flex;
+  display: inline-block;
   object-fit: contain;
 }
-*/
+
 h3{
   display: inline-flex;
   color: green;
@@ -65,8 +64,8 @@ p {
 
 span {
   border: 1px solid rgb(147, 231, 231);
-  display: inline-flex;
-  margin-left: 1em;
+  display: inline-block;
+  margin-left: 0.5em;
 }
 
 .promo {
