@@ -1,9 +1,8 @@
 /* styles.css */
 body {
   background-color: rgb(191, 247, 219, 0.5) ;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 30px;
+  width: 800px;
+  margin: auto;
   font-family: Arial, 'Courier New', Helvetica, sans-serif;
 }
 
@@ -12,60 +11,51 @@ h1 {
   background-color: rgb(136, 243, 189, 0.6);
   font-size: 48px;
   text-align: center;
+  margin: 0.5em auto;
 }
 
 div .subsection {
   align-items: center;
   color: blue;
   margin-left: 3em;
-  display: inline-block;
+  display: inline-flex;
 }
 
-#scroller {
-  display: inline-block;
-  object-fit: contain;
+span, #scroller, .foot {
+  display: flex;
+  width: auto;
+  align-items: center;
+  height: 75px;
+  margin: auto;
+  padding: 2px;
 }
 
-h3{
+h3 {
   display: inline-flex;
   color: green;
   background-color: inherit;
+  margin-left: 300px;
 }
 
 img.actual {
   height: auto;
   width: 600px;
   display: flex;
-  border: 2px rgb(127, 255, 212, 0.3);  
+  border: 2px rgb(127, 255, 212, 0.3);
+  margin: auto;
 }
 
 p {
   text-justify: auto;
   text-align: left;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: auto 2em;
 }
 
-.foot {
-  height: 75px;
-  width: auto;
-  margin-left: 2px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  margin-right: 2px;
-}
-  
 .teasers {
   align-items: center;
   font-size: 18px;
   font-weight: 500;
   margin: 2em;
-  }
-
-span {
-  border: 1px solid rgb(147, 231, 231);
-  display: inline-block;
-  margin-left: 0.5em;
 }
 
 .promo {
@@ -76,11 +66,15 @@ span {
 }
 
 #return {
-  display: flex;
-  color: blue;
+  display: inline-block;
   background-color: inherit;
-  font-size: medium;
+  font-size: 18px;
   font-style: italic;
   height: auto;
-  width: auto;
+  width: 80px;
+  text-align: center;
+}
+
+button {
+  margin: auto 0;
 }
